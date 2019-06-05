@@ -10,11 +10,10 @@ const Footer = (props, context) => {
       <div className="content-grid">
         <div
           style={{ color: textPrimary }}>
-          © {" "}
-          <a href="https://github.com/vicnala" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>
-            Víctor Navarro
+          © Víctor Navarro Lázaro {" "}{(new Date()).getFullYear()} {" | "}
+          <a href="https://rinkeby.aragon.org/#/lzr" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>
+            LZR DAO
           </a>
-            {" "}{(new Date()).getFullYear()}
         </div>
       </div>
     </footer>

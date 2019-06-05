@@ -25,6 +25,24 @@ touch .env
 SASS_PATH=node_modules:src
 ```
 
+## Publish to github pages
+
+Add homepage and deploy scripts to package.json:
+```json
+{
+  "homepage": "https://vicnala.github.io/portfolio",
+  "scripts":{
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+  }
+}
+```
+
+Install gh-pages:
+```
+npm install --save gh-pages
+```
+
 ## License
 
 MIT © Víctor Navarro.
