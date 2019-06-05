@@ -11,7 +11,7 @@ const Footer = (props, context) => {
         <div
           style={{ color: textPrimary }}>
           © Víctor Navarro Lázaro {" "}{(new Date()).getFullYear()} {" | "}
-          <a href="https://rinkeby.aragon.org/#/lzr" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>
+          <a href="https://mainnet.aragon.org/#/lzr" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>
             LZR DAO
           </a>
         </div>
