@@ -21,7 +21,7 @@ export default class Support extends React.Component {
         });
       }}>
         <FontAwesomeIcon icon={faPeopleCarry} />
-        <div className="magic-text">Support LZR DAO</div>
+        <div className="magic-text">Support the LZR DAO</div>
       </div>
     );
   }
