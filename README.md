@@ -1,6 +1,6 @@
 # Víctor Navarro
 
-This repo holds my **dev portfolio**.
+This repo holds my [dev portfolio](https://vicnala.github.io/portfolio).
 
 ## Dev notes
 
@@ -24,6 +24,14 @@ touch .env
 ```
 SASS_PATH=node_modules:src
 ```
+
+## Use Web3 drizzle context
+
+Init the context using the React Context API:
+https://github.com/trufflesuite/drizzle-react#using-the-react-context-api-for-react-v163
+
+Make use of the "loading" recipe to show network connection and accounts:
+https://github.com/trufflesuite/drizzle-react#recipe-loading-component
 
 ## Publish to github pages
 
