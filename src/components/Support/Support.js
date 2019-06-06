@@ -32,7 +32,7 @@ export default class Support extends React.Component {
           from:   account,
           to:     to,
           value:  "10000000000000000",
-          gas:    200000,
+          gas:    21000,
           data:   ""
         }, (err, hash) => {
           if (!err) console.log(hash + " success");
