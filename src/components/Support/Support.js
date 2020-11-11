@@ -6,22 +6,22 @@ export default class Support extends React.Component {
   render() {
     const { drizzle, drizzleState } = this.props;
     const web3 = drizzle.web3;
-    let network = "Unknown";
-    let to = "0xef74ff1237c22Fa17fd147f570Ee43e9f1F7F84E";  // Test
+    // let network;
+    let to = "0x892a005324342DBF5616B3caDA86dD5feDf19065";
 
     // get the network Id
     const networkId = drizzleState.web3.networkId;
     if (networkId === 1) {
-      network = "Main";
-      to = "0xF2efFF7DB7fdA1b2371460F153c801Ecf6aC8b54";
+      // network = "Main";
+      to = "0x892a005324342DBF5616B3caDA86dD5feDf19065";
     } else if (networkId === 3) {
-      network = "Ropsten";
+      // network = "Ropsten";
     } else if (networkId === 42) {
-      network = "Kovan";
+      // network = "Kovan";
     } else if (networkId === 4) {
-      network = "Rinkeby";
+      // network = "Rinkeby";
     } else if (networkId === 5) {
-      network = "Goerly";
+      // network = "Goerly";
     }
 
 
@@ -40,7 +40,7 @@ export default class Support extends React.Component {
         });
       }}>
         <FontAwesomeIcon icon={faPeopleCarry} />
-        <div className="magic-text">Support the LZR DAO in <b>{network}</b> network</div>
+        <div className="magic-text">Have a beer!</div>
       </div>
     );
   }

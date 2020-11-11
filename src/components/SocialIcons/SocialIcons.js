@@ -27,7 +27,7 @@ const SocialIcons = (props, context) => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/vicnala"
+          href="https://www.linkedin.com/in/vnavarroalcuadrado"
           style={ { color: colorPrimary } }>
           <FontAwesomeIcon icon={faLinkedin} />
         </a>

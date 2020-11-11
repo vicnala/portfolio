@@ -14,7 +14,7 @@ export default () => (
       if (!initialized || !account) {
         return (
           <div className="magic-wand bounce-xy">
-            <small>Connect to Ethereum to enable the DApp</small>
+            <small>Connect to Ethereum</small>
           </div>
         );
       }

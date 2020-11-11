@@ -4,16 +4,13 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 const Footer = (props, context) => {
-  const { theme: { colorPrimary, textPrimary } } = context;
+  const { theme: { textPrimary } } = context;
   return (
     <footer>
       <div className="content-grid">
         <div
           style={{ color: textPrimary }}>
-          © Víctor Navarro Lázaro {" "}{(new Date()).getFullYear()} {" | "}
-          <a href="https://mainnet.aragon.org/#/lzr" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>
-            LZR DAO
-          </a>
+          © Víctor Navarro {" "}{(new Date()).getFullYear()}
         </div>
       </div>
     </footer>

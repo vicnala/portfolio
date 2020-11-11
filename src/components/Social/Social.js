@@ -10,7 +10,7 @@ const SocialIcons = (props, context) => {
     <div className="social-icons animate-icons">
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vicnala" style={ { color: colorPrimary } }><i className="fab fa-github"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/vicnala" style={ { color: colorPrimary } }><i className="fab fa-twitter"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vicnala" style={ { color: colorPrimary } }><i className="fab fa-linkedin"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vnavarroalcuadrado" style={ { color: colorPrimary } }><i className="fab fa-linkedin"></i></a>
       </div>
   );
 };
